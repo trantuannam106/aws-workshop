@@ -6,22 +6,26 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Week 1 Goals:
+### Week 1 Objectives:
 
 - Get familiar with the internship environment and members of the First Cloud Journey program.
-- Understand the basic concepts of Cloud Computing and the AWS service ecosystem.
-- Get familiar with AWS Management Console and AWS CLI.
-- Practice deploying and managing basic resources on AWS (EC2, EBS).
+- Understand fundamental concepts of Cloud Computing and the AWS service ecosystem.
+- Gain a clear understanding of AWS global infrastructure, management tools, and cost optimization strategies.
 
-### Tasks for This Week:
+- Create an AWS Free Tier 2025 account and receive the full $200 credit.
+- Complete hands-on labs related to account setup, security, and budget management.
 
-| Day | Task                                                                                                                                                                                                  | Start Date | End Date   | Resources                                 |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ----------------------------------------- |
-| Mon | - Get acquainted with FCJ members <br> - Read and note the rules and regulations of the internship unit                                                                                               | 20/04/2026 | 20/04/2026 |                                           |
-| Tue | - Learn about AWS and its service types <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ...                                                      | 21/04/2026 | 21/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br>&emsp; + How to use AWS CLI | 22/04/2026 | 22/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Ways to remote SSH into EC2 <br> - Learn about Elastic IP                                    | 23/04/2026 | 23/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | - **Practice:** <br>&emsp; + Create EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach EBS volume                                                                                          | 24/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+---
+
+### Weekly Tasks:
+
+| Day | Tasks | Start Date | End Date | Resources |
+|-----|------|------------|----------|-----------|
+| 2 | - Get familiar with FCJ members <br> - Review internship rules and regulations | 20/04/2026 | 20/04/2026 | <https://www.notion.so/Group-description-TP-HCM-347df829a730809a8f63d39505644917> |
+| 3 | - Module 01-01: What is Cloud Computing? <br> - Module 01-02: What Makes AWS Different? <br> - Module 01-03: How to Start Your Cloud Journey <br> - Module 01-04: AWS Global Infrastructure | 21/04/2026 | 21/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Module 01-05: AWS Service Management Tools <br> - Module 01-06: Cost Optimization & Working with AWS Support <br> - Module 01-07: Practice and Additional Research <br> - **Hands-on:** <br>&emsp; + Lab01-01: Create AWS Account <br>&emsp; + Lab01-02: Set up Virtual MFA Device <br>&emsp; + Lab01-03: Create Admin Group and Admin User <br>&emsp; + Lab01-04: Account Verification Support | 22/04/2026 | 22/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - **Budget Practice:** <br>&emsp; + Lab07-01: Create Budget from Template <br>&emsp; + Lab07-02: Create Cost Budget <br>&emsp; + Lab07-03: Create Usage Budget <br>&emsp; + Lab07-04: Create Reserved Instance Budget <br>&emsp; + Lab07-05: Create Savings Plans Budget <br>&emsp; + Lab07-06: Clean up Budgets <br> - **Support Practice:** <br>&emsp; + Lab09-01: AWS Support Plans <br>&emsp; + Lab09-02: Types of Support Cases <br>&emsp; + Lab09-03: Change Support Plan <br>&emsp; + Lab09-04: Manage Support Cases | 23/04/2026 | 23/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Complete 5 tasks to earn $200 credit: <br>&emsp; + Launch EC2 Instance (+$20) <br>&emsp; + Amazon Bedrock Playground (+$20) <br>&emsp; + Set up AWS Budgets (+$20) <br>&emsp; + Create Lambda Web App (+$20) <br>&emsp; + Create RDS Database (+$20) <br> - Additional research: AWS Well-Architected Framework | 24/04/2026 | 24/04/2026 | <https://000001.awsstudygroup.com/> <br> <https://docs.aws.amazon.com/wellarchitected/> |
 
 ---
 
@@ -29,101 +33,167 @@ pre: " <b> 1.1. </b> "
 
 #### Knowledge
 
-- Understood the concept of Cloud Computing and AWS's role.
-- Grasped the main service categories:
-  - Compute (EC2)
+**Module 01-01 — What is Cloud Computing?**
+
+- Understand Cloud Computing concepts: on-demand, pay-as-you-go.
+- Differentiate service models: IaaS, PaaS, SaaS.
+- Understand deployment models: Public Cloud, Private Cloud, Hybrid Cloud.
+
+**Module 01-02 — What Makes AWS Different?**
+
+- AWS is the world’s leading cloud provider with 200+ services.
+- Key advantages: high availability, security, flexibility, cost efficiency.
+- Understand core service groups:
+  - Compute (EC2, Lambda)
   - Storage (S3, EBS)
   - Networking (VPC, Security Group)
-  - Database (RDS)
-- Understood the relationships between services in a cloud system.
+  - Database (RDS, Aurora)
+  - AI/ML (Amazon Bedrock)
+
+**Module 01-03 — How to Start Your Cloud Journey**
+
+- Understand the AWS learning path from beginner to advanced.
+- Learn about AWS Free Tier 2025:
+  - $100 credit upon account creation
+  - Additional $100 from completing 5 tasks
+  - Two options: Free Plan (6-month protection) and Paid Plan (full access)
+
+**Module 01-04 — AWS Global Infrastructure**
+
+- AWS operates across multiple Regions and Availability Zones worldwide.
+- Understand Region, AZ, and Edge Location concepts.
+- Learn how to choose the appropriate Region (latency, cost, compliance).
+
+**Module 01-05 — AWS Service Management Tools**
+
+- AWS Management Console (web interface)
+- AWS CLI (command line)
+- AWS SDK (integration with code)
+- AWS CloudShell
+
+**Module 01-06 — Cost Optimization & AWS Support**
+
+- Cost management tools: AWS Budgets, Cost Explorer, Cost & Usage Reports.
+- Cost-saving strategies: Reserved Instances, Savings Plans, Spot Instances.
+- AWS Support plans: Basic, Developer, Business, Enterprise.
+- How to create and manage support cases.
+
+**Additional Research — AWS Well-Architected Framework**
+
+- 6 pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability.
 
 ---
 
-#### Practice
+#### Hands-on Practice
 
-- Successfully created an AWS Free Tier account.
-- Got familiar with AWS Management Console:
-  - Searching and accessing services
-  - Managing resources
+**Lab01-01 — Create AWS Account:**
 
-- Installed and configured AWS CLI:
-  - Access Key
-  - Secret Key
-  - Default Region
+- Access [aws.amazon.com/free](https://aws.amazon.com/free) and create a new account.
+- Select **Paid Plan** for full service access.
+- Receive $100 credit after successful account creation.
+- 📸 _Evidence: AWS Console after first login._  
+- 📸 _Evidence: Billing Console showing $100 credit._
 
-- Executed basic commands:
+**Lab01-02 — Set up Virtual MFA Device:**
 
-```bash
-  aws configure list
-  aws ec2 describe-instances
-  aws ec2 describe-regions
-```
+- Enable MFA for root account using an authenticator app.
+- 📸 _Evidence: MFA successfully enabled screen._
 
-- Deployed EC2:
-  - Created 01 EC2 instance (t2.micro - Free Tier)
-  - Created and used a key pair (.pem)
-  - Successfully connected via SSH to the instance
+**Lab01-03 — Create Admin Group and User:**
 
-- Worked with EBS:
-  - Created an EBS volume (8GB)
-  - Attached it to the EC2 instance
-  - Verified and mounted the volume
+- Create IAM Group `AdminGroup` with `AdministratorAccess`.
+- Create IAM User and assign to group.
+- 📸 _Evidence: IAM Users and Groups in Console._
 
-- Able to use both in parallel:
-  - AWS Console (GUI)
-  - AWS CLI
+**Lab01-04 — Account Verification Support:**
+
+- Practice contacting AWS Support for account verification.
+- 📸 _Evidence: Support case created successfully._
+
+**Lab07 — AWS Budgets Practice:**
+
+- Create various budgets: Cost, Usage, RI, Savings Plans.
+- Configure email alerts.
+- Clean up resources after practice.
+- 📸 _Evidence: Budgets list in AWS Console._
+
+**Lab09 — AWS Support Practice:**
+
+- Explore support plans and case types.
+- Create and manage support cases.
+- 📸 _Evidence: Support case dashboard._
 
 ---
 
-#### Challenges and Solutions
+#### $200 Credit Tasks
 
-- **Challenges:**
-  - SSH error when connecting to EC2 (Permission denied).
-  - Did not fully understand how Security Groups work.
-  - Confused about the region when configuring AWS CLI.
+- **Task 1 — Launch EC2 Instance (+$20):**
+  - Create EC2 instance `Test Instance`
+  - Configure Security Group and key pair (`first-kp`)
+  - Terminate after use (clean up)
+  - 📸 _Evidence: EC2 instance running_
 
-- **Solutions:**
+- **Task 2 — Amazon Bedrock Playground (+$20):**
+  - Use **Claude 3 Haiku** model
+  - Test prompts
+  - 📸 _Evidence: Bedrock response_
 
-  Set the correct permissions for the key file:
+- **Task 3 — Set up AWS Budgets (+$20):**
+  - Create cost budget with alerts
+  - 📸 _Evidence: Budget created_
 
-```bash
-  chmod 400 key.pem
-```
+- **Task 4 — Create Lambda Web App (+$20):**
+  - Create Lambda function from blueprint
+  - Delete after use
+  - 📸 _Evidence: Lambda created_
 
-- Read the documentation and practiced repeatedly to understand Security Groups.
-- Reconfigured the CLI:
+- **Task 5 — Create RDS Database (+$20):**
+  - Create Aurora PostgreSQL database
+  - Delete after use
+  - 📸 _Evidence: RDS Available_
 
-```bash
-  aws configure
-```
+- 📸 _Final Evidence: Billing Console showing full $200 credit_
+
+---
+
+#### Challenges & Solutions
+
+**Challenges:**
+
+- Confusion between Free Plan and Paid Plan.
+- Authorization error when accessing Amazon Bedrock.
+- Difficulty navigating AWS Console initially.
+- Confusion between different Budget types.
+
+**Solutions:**
+
+- Reviewed documentation before account setup.
+- Submitted AWS Support case for Bedrock allowlisting.
+- Practiced regularly to become familiar with the Console.
+- Studied each Budget type and practiced step-by-step.
 
 ---
 
 #### Evidence
 
-- AWS Console (EC2 instance running)
-- Successful SSH terminal session
-- AWS CLI command output
-- EBS volume attached
-
-Example:
-
-![EC2 Instance](../images/ec2-instance.png)
-![SSH EC2](../images/ssh-ec2.png)
+- 📸 AWS Console (first login)
+- 📸 $100 credit in Billing
+- 📸 MFA enabled
+- 📸 IAM setup
+- 📸 Budgets created
+- 📸 Support cases
+- 📸 EC2 running
+- 📸 Bedrock response
+- 📸 Lambda created
+- 📸 RDS available
+- 📸 Full $200 credit
 
 ---
 
 #### Lessons Learned
 
-- Better understanding of the Cloud model (IaaS).
-- Got used to managing resources remotely.
-- Learned how to troubleshoot errors when working with a new system.
-- Recognized the differences between a local and a cloud environment.
-
----
-
-#### Plans for Next Week
-
-- Learn about AWS Networking (VPC, Subnet).
-- Work with S3.
-- Deploy a simple application on EC2.
+- Gained a solid understanding of Cloud Computing and AWS ecosystem.
+- Always enable MFA and use IAM users instead of root account.
+- Set up Budgets early to avoid unexpected costs.
+- Always clean up resources after use.
+- AWS Well-Architected Framework is essential for designing cloud systems.
