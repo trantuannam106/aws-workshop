@@ -49,10 +49,11 @@ pre: " <b> 1.1. </b> "
   * Default Region
 
 * Thực hiện các lệnh cơ bản:
-  * ```bash
-  * aws configure list
-  * aws ec2 describe-instances
-  * aws ec2 describe-regions
+```bash
+  aws configure list
+  aws ec2 describe-instances
+  aws ec2 describe-regions
+```
 
 * Triển khai EC2:
 
