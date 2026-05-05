@@ -90,6 +90,7 @@ pre: " <b> 1.1. </b> "
 - Truy cập [aws.amazon.com/free](https://aws.amazon.com/free) và tạo tài khoản mới.
 - Chọn **Paid Plan** để toàn quyền truy cập dịch vụ.
 - Nhận $100 credit tự động sau khi tạo tài khoản thành công.
+- 
 - 📸 _Ảnh minh chứng: màn hình AWS Console sau khi đăng nhập lần đầu._
 - 📸 _Ảnh minh chứng: AWS Billing Console hiển thị $100 credit._
 
