@@ -90,14 +90,13 @@ pre: " <b> 1.1. </b> "
 - Truy cập [aws.amazon.com/free](https://aws.amazon.com/free) và tạo tài khoản mới.
 - Chọn **Paid Plan** để toàn quyền truy cập dịch vụ.
 - Nhận $100 credit tự động sau khi tạo tài khoản thành công.
--
-- ![Ảnh minh chứng: màn hình AWS Console sau khi đăng nhập lần đầu](/images/1-Worklog/AWS Billing Console hiển thị $100 credit.png)
-- ![Ảnh minh chứng: AWS Billing Console hiển thị $100 credit](/images/1-Worklog/AWS Billing Console hiển thị $100 credit.png)
+- ![Ảnh minh chứng: màn hình AWS Console sau khi đăng nhập lần đầu](/images/1-Worklog/AWS%20Billing%20Console%20hiển%20thị%20%24100%20credit.png)
+- ![Ảnh minh chứng: AWS Billing Console hiển thị $100 credit](/images/1-Worklog/AWS%20Billing%20Console%20hiển%20thị%20%24100%20credit.png)
 
 **Lab01-02 — Cài đặt Virtual MFA Device:**
 
 - Kích hoạt MFA cho tài khoản root bằng ứng dụng Authenticator.
-- ![Ảnh minh chứng: màn hình xác nhận MFA đã được kích hoạt thành công](/images/1-Worklog/màn hình xác nhận MFA đã được kích hoạt thành công.png)
+- ![Ảnh minh chứng: màn hình xác nhận MFA đã được kích hoạt thành công](/images/1-Worklog/m%C3%A0n%20h%C3%ACnh%20x%C3%A1c%20nh%E1%BA%A9n%20MFA%20%C4%91%C3%A3%20%C4%91%C6%B0%E1%BB%A3c%20k%C3%ADch%20ho%E1%BA%A1t%20th%C3%A0nh%20c%C3%B4ng.png)
 
 **Lab01-03 — Tạo admin group và admin user:**
 
